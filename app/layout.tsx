@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import { Spectral } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
 
-const spectral = Spectral({
-  variable: "--font-spectral",
+const inter = Inter({
+  variable: "--font-inter",
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"]
 });
@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${spectral.variable} antialiased bg-red-500`}
+        className={`${inter.variable} antialiased bg-red-500`}
       >
         {children}
       </body>
