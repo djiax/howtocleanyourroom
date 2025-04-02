@@ -8,7 +8,7 @@ export default function Home() {
     <div className="min-h-screen bg-slate-100">
 
       <div className="py-12 text-center text-black ">
-        A Sacred Collection of CLeanliness
+        A Sacred Collection of Cleanliness
       </div>
 
       <div className="text-red-400">
@@ -16,7 +16,7 @@ export default function Home() {
       </div>
 
       <div>
-        <div>Messy Level</div>
+        <div className="text-black">Messy Level</div>
         <div>
           <Link href={`/light`} className="text-red-500" >Light</Link>
           <Link href={`/medium`} className='text-black'>Medium</Link>
