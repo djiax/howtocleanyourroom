@@ -11,16 +11,16 @@ export default function Home() {
         A Sacred Collection of CLeanliness
       </div>
 
-      <div className="">
+      <div className="text-red-400">
         The wisdom you require to transform your room of chaos to a sanctuary
       </div>
 
       <div>
         <div>Messy Level</div>
         <div>
-          <Link href={`/light`} />
-          <Link href={`/medium`} />
-          <Link href={`/chaos`} />
+          <Link href={`/light`} className="text-red-500" >Light</Link>
+          <Link href={`/medium`} className='text-black'>Medium</Link>
+          <Link href={`/chaos`} className='text-black'>Chaos</Link>
         </div>
       </div>
     </div>
